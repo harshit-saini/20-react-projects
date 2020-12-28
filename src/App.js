@@ -7,18 +7,6 @@ const padTime = (time) => {
   return time.toString().padStart(2, '0');
 }
 
-// const timerInterval = (timeLeft, settimeLeft) => {
-//   setInterval(() => {
-//     settimeLeft((timeLeft) => {
-//       if (timeLeft === 0) {
-//         clearInterval(timerInterval);
-//         return 0
-//       }
-//       else return timeLeft - 1;
-//     });
-//   }, 1000);
-// }
-
 console.log('before the component')
 
 const App = () => {
